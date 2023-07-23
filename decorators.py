@@ -10,3 +10,13 @@ def timeit(func):
         end = time.time()
         print(f"Finished {func.__name__} in {end - start}")
     return wrap
+
+
+def timeit_async(func):
+    @wraps(func)
+    async def wrap(*args, **kwargs):
+        start = time.time()
+        await func(*args, **kwargs)
+        end = time.time()
+        print(f"Finished {func.__name__} in {end - start}")
+    return wrap

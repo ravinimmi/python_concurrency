@@ -3,3 +3,4 @@ ipython==8.14.0
 aiohttp==3.8.5
 gevent==23.7.0
 grequests==0.7.0
+httpx==0.24.1

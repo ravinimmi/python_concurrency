@@ -12,9 +12,13 @@ Multithreading
 count  time cpu   mem
 1000   45s  50%   0.5%
 
-Asyncio
+Asyncio aiohttp
 count  time cpu   mem
 1000   4s   100%  5%
+
+Asyncio httpx
+count  time cpu   mem
+1000   10s   100%  8%
 
 Gevent
 count  time cpu   mem

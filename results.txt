@@ -83,3 +83,7 @@ count  time cpu   mem
 grequests
 count  time cpu   mem
 1000   10s  100%  8%
+
+Multithreading Asyncio aiohttp
+count  time cpu   mem
+1000   1.2s 200%  5%
